@@ -18,6 +18,7 @@ const config: Config = {
       },
     },
     extend: {
+     
       colors: {
         'primary-100': '#372744',
         'primary-200': '#BC6FF1',
@@ -57,6 +58,20 @@ const config: Config = {
       },
       fontFamily: {
         sans: ['var(--font-sans)', ...fontFamily.sans],
+        leagueSpartan:["League Spartan", ...fontFamily.sans],
+        roboto: ["Roboto",...fontFamily.sans],
+      },
+      fontSize: {
+        sm: '0.8rem',
+        base: '1rem',
+        xl: '1.25rem',
+        '2xl': '2rem',
+        '3xl': '1.953rem',
+        '4xl': '2.441rem',
+        '5xl': '3.052rem',
+      },
+      margin: {
+        '15px': '15px',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
